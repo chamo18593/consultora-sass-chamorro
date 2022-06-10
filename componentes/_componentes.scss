@@ -1,0 +1,52 @@
+body{
+        background-image: url(../imagenesyaudio/fabricafondo.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family:'Hubballi';
+    }
+    
+    header{
+        background-color: $bg-darkblue;
+        a{
+            color: $text-color;
+        }
+    }
+    
+    section{
+         div{
+            
+             h1{
+             color: $text-color;
+            Font-size: nth($size , 9);
+            text-align: center;
+            }
+            h4{
+                 color: $text-color1;
+                background-color: $bg-darkblue;
+                text-align: center;
+                 font-size: nth($size , 1);
+                margin: 20px;
+             }
+             p{
+                color: $text-color;
+                text-align: center;
+                background-color: $bg-darkblue;
+                margin: 100px;
+
+            }
+            
+            audio{
+             margin: 50px;
+             }
+    
+         }
+    }
+    
+    footer{
+        color: $text-color;
+        background-color: $bg-darkblue;
+        display: flex;
+        justify-content: flex-start;
+    }
