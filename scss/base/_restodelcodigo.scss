@@ -1,26 +1,11 @@
 /*SERVICIO*/
 
-
 .divUnoS{
     height: 100px;
     margin-top: 10px;
     display: flex;
     justify-content:center;
     align-items: center;
-    animation: cambioInfinito 5s infinite;
-}
-
-@keyframes cambioInfinito{
-    0%{
-        color: rgb(255, 255, 255);
-    }
-
-    50%{
-        color: rgb(94, 150, 255);
-    }
-    100%{
-        color: rgb(255, 255, 255);
-    }    
 }
 
 .servicioH1{
