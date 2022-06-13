@@ -1,0 +1,391 @@
+/*SERVICIO*/
+
+
+.divUnoS{
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    animation: cambioInfinito 5s infinite;
+}
+
+@keyframes cambioInfinito{
+    0%{
+        color: rgb(255, 255, 255);
+    }
+
+    50%{
+        color: rgb(94, 150, 255);
+    }
+    100%{
+        color: rgb(255, 255, 255);
+    }    
+}
+
+.servicioH1{
+    font-size: 70px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 99, 0.705);
+
+}
+
+.divDosS {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.fabrica{
+    height: 500px;
+    width: 800px;
+}
+
+.divTresS{
+    background-color: rgba(0, 0, 70, 0.932);
+    height: 80px;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    border: 2px solid rgb(2, 0, 95);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    animation: cambiofondoinfinito 10s infinite;
+    color: rgb(0, 0, 99);
+    font-family: 'roboto';
+}
+
+@keyframes cambiofondoinfinito{
+    0%{
+        background-color: rgb(255, 255, 255);
+    }
+
+    20%{
+        background-color: rgb(189, 189, 255);
+    }
+    40%{
+        background-color: rgb(119, 128, 255);
+    }   
+    60%{
+        background-color: rgb(88, 88, 255);
+    }
+    80%{
+        background-color: rgb(189, 189, 255);
+    }   
+    100%{
+        background-color: rgb(255, 255, 255);
+    }
+        
+}
+
+.parrafoS{
+    color: rgb(0, 0, 109);
+}
+
+.divCuatroS{
+    height: 30px;
+    margin-top: 30px;
+}
+
+.irInicio{
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.audioresto{
+    margin-top: 20px;
+}
+
+/*CLIENTES*/
+
+.div1C{
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.tabla{
+    background-color: rgba(1, 1, 100, 0.842);
+    border: 2px solid black ;
+    color: white;
+}
+
+table tr th{
+    border: 1px solid black;
+}
+table tr td{
+    border: 1px solid black;
+}
+
+.divUnoC{
+    background-color:  rgba(1, 1, 100, 0.842);
+    color: white;
+    margin-top: 15px;
+    height: 80px;
+    overflow: scroll;
+}
+
+.divDosC{
+    color: white;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.hechaUn{
+    border: 2px solid white;
+    text-align: center;
+}
+
+.iframe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footerDosF{
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/*CONTACTO*/
+
+.divDosT{
+    font-family: 'Big Shoulders Display';
+    color: white;
+    font-size: 20px;
+}
+
+.contacto{
+    height: 50px;
+    animation: rotation 5s infinite linear
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(20deg);
+    }
+  }
+  
+  .hacheCuatro{
+      color: white;
+      font-family: 'Hubballi';
+  }
+
+  .BotonEnviar{
+      color: white;
+      font-family: 'Hubballi';
+      border: 2px solid black;
+  }
+
+  .hacheUnoF{
+      font-family: 'Hubballi';
+      color: white;
+      text-align: center;
+      font-size: 60px;
+  }
+
+  .divUnoF{
+      display: flex;
+      flex-direction: row;
+      height: 300px;
+      justify-content: space-around;
+    }
+
+    .divDosF{
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .divTresF{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+/*MEDIA SCREEN*/
+
+@media screen and (max-width: 768px) {
+    
+    .div1{
+        height: 200px;
+        font-size: 100px;
+        color: white;
+        text-align: center;
+    }
+    
+    .titulo1:hover{
+        transform: scale(2);
+        transition:all 1s;
+    }
+    
+    
+    .div2{
+        height: 100px;
+        background-color: rgba(0, 0, 139, 0.932);
+       color: rgb(100, 123, 255);
+       border: 3px solid black;
+       padding: 20px;
+    }
+    
+    .estilo1{
+        font-size: 13px;
+        font-style: italic;
+        animation: cambioDeColor 4s;
+        text-align: center;
+    }
+    
+    @keyframes cambioDeColor{
+        0%{
+            color: rgb(100, 123, 255);
+        }
+    
+        25%{
+            color: rgb(50, 79, 243);
+        }
+    
+        50%{
+            color: rgb(15, 43, 202);
+        }
+    
+        75%{
+            color: rgb(0, 23, 155);
+        }
+    
+        100%{
+            color: rgb(100, 123, 255);
+        }
+    }
+    
+    .div3{
+        height: 75px;
+        background-color:rgba(0, 0, 139, 0.932);
+        color: rgb(100, 123, 255);
+        border: 3px solid black;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    
+    .div4{
+        height: 20px;
+        background-color: black;
+        color: rgb(184, 184, 184);
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 50px;
+    }
+    
+    .hache4{
+        font-size: 15px;
+    }
+    
+    
+    .audio{
+        height: 300px;
+    }
+}
+
+/*MEDIA SCREEN 320*/
+
+@media screen and (max-width: 320px) {
+    
+    .div1{
+        height: 100px;
+        font-size: 50px;
+        color: white;
+        text-align: center;
+    }  
+    
+    .div2{
+        height: 100px;
+        background-color: rgba(0, 0, 139, 0.932);
+       color: rgb(100, 123, 255);
+       border: 3px solid black;
+       padding: 15px;
+    }
+    
+    .estilo1{
+        font-size: 11px;
+        font-style: italic;
+        animation: cambioDeColor 4s;
+        text-align: center;
+    }
+    
+    @keyframes cambioDeColor{
+        0%{
+            color: rgb(100, 123, 255);
+        }
+    
+        25%{
+            color: rgb(50, 79, 243);
+        }
+    
+        50%{
+            color: rgb(15, 43, 202);
+        }
+    
+        75%{
+            color: rgb(0, 23, 155);
+        }
+    
+        100%{
+            color: rgb(100, 123, 255);
+        }
+    }
+    
+    .div3{
+        height: 75px;
+        background-color:rgba(0, 0, 139, 0.932);
+        color: rgb(100, 123, 255);
+        border: 3px solid black;
+        padding: 6px;
+        text-align: center;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    
+    .div4{
+        height: 20px;
+        background-color: black;
+        color: rgb(184, 184, 184);
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        padding: 3px;
+    }
+    
+    .hache4{
+        font-size: 10px;
+    }
+    
+    
+    .audio{
+        height: 300px;
+    }
+
+    .footerDos{
+        height: 20px;
+        color: black;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        font-size: 10px;
+    }
+}
