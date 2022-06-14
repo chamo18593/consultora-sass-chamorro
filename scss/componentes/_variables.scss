@@ -8,7 +8,7 @@ body{
     }
     
     header{
-        background-color: $bg-darkblue;
+        background-color: $color-c;
         a{
             color: $text-color;
         }
@@ -18,26 +18,27 @@ body{
          div{
             
              h1{
-             color: $text-color;
+             color: $color-c4;
             Font-size: nth($size , 9);
             text-align: center;
-            }
+            font-family: 'Source Sans Pro';
+                }
             h4{
-                 color: $text-color1;
+                color: $text-color1;
                 background-color: $bg-darkblue;
                 text-align: center;
-                 font-size: nth($size , 1);
-                margin: 20px;
+                font-size: nth($size , 1);
+                margin-top: 70px;
              }
              p{
                 color: $text-color;
                 text-align: center;
                 background-color: $bg-darkblue;
-                margin: 100px;
-
-            }
-            
-    
+                margin-top: 100px;
+                width: 150px;
+                display: flex;
+                
+            }    
          }
     }
     
@@ -47,3 +48,5 @@ body{
         display: flex;
         justify-content: flex-start;
     }
+
+    
