@@ -18,12 +18,12 @@ body{
             }
 
     section{
-        color: $text-color;
-        border: 1px solid $text-color;
-        background-color: rgba(255, 255, 255, 0.568);
-        display: flex;
-        justify-content: flex-end;
-        height: 27px;
+        background-color: map-get($sectionInfo , bg-section );
+        border: map-get($sectionInfo , bordes );
+        display: map-get($sectionInfo , display );
+        justify-content: map-get($sectionInfo , justcont );
+        height: map-get($sectionInfo , alto );
+        color: map-get($sectionInfo , colorletra );
             
     }
     
@@ -99,6 +99,10 @@ body{
         background-color: $color-c1;
         margin: 0;
 
+    }
+
+    .fondos1{
+        @include fondos1()
     }
 
     /*SERVICIO*/
