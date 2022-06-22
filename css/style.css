@@ -1,114 +1,3 @@
-<<<<<<< HEAD
-=======
-/*CLIENTES*/
-.div1C {
-  height: 100px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: white;
-  font-size: 50px;
-}
-
-.tabla {
-  background-color: rgba(1, 1, 100, 0.842);
-  border: 2px solid black;
-  color: white;
-}
-
-table tr th {
-  border: 1px solid black;
-}
-
-table tr td {
-  border: 1px solid black;
-}
-
-.divUnoC {
-  background-color: rgba(1, 1, 100, 0.842);
-  color: white;
-  margin-top: 15px;
-  height: 80px;
-  overflow: scroll;
-}
-
-.divDosC {
-  color: white;
-  height: 50px;
-  margin-top: 10px;
-  font-size: 20px;
-}
-
-.hechaUn {
-  border: 2px solid white;
-  text-align: center;
-}
-
-.iframe {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-/*CONTACTO*/
-.divDosT {
-  font-family: "Big Shoulders Display";
-  color: white;
-  font-size: 20px;
-}
-
-.contacto {
-  height: 50px;
-  animation: rotation 5s infinite linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(20deg);
-  }
-}
-.hacheCuatro {
-  color: white;
-  font-family: "Hubballi";
-}
-
-.BotonEnviar {
-  color: white;
-  font-family: "Hubballi";
-  border: 2px solid black;
-}
-
-.hacheUnoF {
-  font-family: "Hubballi";
-  color: white;
-  text-align: center;
-  font-size: 60px;
-}
-
-.divUnoF {
-  display: flex;
-  flex-direction: row;
-  height: 300px;
-  justify-content: space-around;
-}
-
-.divDosF {
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.divTresF {
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /*MEDIA SCREEN*/
 @media screen and (max-width: 768px) {
   .div1 {
@@ -248,7 +137,6 @@ table tr td {
     font-size: 10px;
   }
 }
->>>>>>> main
 body {
   background-image: url(../imagenesyaudio/fabricafondo.jpg);
   background-attachment: fixed;
@@ -366,7 +254,7 @@ h1 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
-  grid-template-rows: 100px 500px 200px 90px 20px;
+  grid-template-rows: 100px 500px 100px 100px 20px;
 }
 
 .h1Servicio {
@@ -410,10 +298,140 @@ h1 {
   background-color: #1d3461;
 }
 
+/*CLIENTES*/
+.divClientes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-rows: 110px 230px 150px;
+}
+
+.h1Clientes {
+  height: 100px;
+  margin-left: 20px;
+  grid-row: 1/2;
+  grid-column: 1/4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 110px;
+}
+
+.estiloTabla {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-top: 30px;
+  background-color: #1d3461;
+  color: white;
+}
+
+th {
+  border: 1px solid white;
+}
+
+td {
+  border: 1px solid white;
+}
+
+.div1C {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  background-color: #829cbc;
+  height: 90px;
+  margin-top: 20px;
+  text-align: center;
+  color: #1d3461;
+  padding: 10px;
+  border: 2px solid #1d3461;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.div2C {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  text-decoration: underline overline;
+}
+
+.iframe {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  margin-top: 10px;
+}
+
+.div3C {
+  grid-row: 6/7;
+  grid-column: 2/3;
+}
+
+/*CONTACTO*/
 .formulario {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+.colorForm {
+  color: white;
+}
+
+.divDosT {
+  color: white;
+}
+
+.h1Contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+.hacheCuatro {
+  color: white;
+  font-family: "Hubballi";
+  border: 2px solid white;
+}
+
+.BotonEnviar {
+  border: 2px solid white;
+  margin: 30px;
+  background-color: #6290c8;
+}
+
+/*FINAL*/
+.gracias {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 100px 300px 300px;
+}
+
+.hache1F {
+  text-align: center;
+  grid-row: auto;
+}
+
+.div1F {
+  grid-row: auto;
+}
+
+.gift {
+  height: 300px;
+}
+
+.div2F {
+  grid-row: 3/4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -120,8 +120,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 1fr);
-    grid-template-rows: 100px 500px 200px 90px 20px;
-
+    grid-template-rows: 100px 500px 100px 100px 20px;
 
    }
 
@@ -138,8 +137,6 @@ body{
     overflow: hidden;
    }
 
-
-
     .imagen1{
     overflow: hidden;
     height: 300px;
@@ -147,7 +144,7 @@ body{
         }
 
    .imagen1:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3);
+        -webkit-transform:scale(1.3);transform:scale(1.3);
     }
 
        
@@ -168,11 +165,146 @@ body{
         background-color: $color-c;
     }
 
-   .formulario{
+
+/*CLIENTES*/
+
+.divClientes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-rows: 110px 230px 150px;
+
+} 
+
+.h1Clientes{
+    height: 100px;
+    margin-left: 20px ; 
+    grid-row: 1/2; 
+    grid-column: 1/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 110px
+}
+
+.estiloTabla{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 30px;
+    background-color: $color-c;
+    color: white;
+    
+    
+   }
+
+   th{
+    border: 1px solid white;
+   }
+   td{
+    border: 1px solid white;
+   }
+
+.div1C{   
+    grid-column: 1/4;
+    grid-row: 3/4;
+    background-color: $color-c4;
+    height: 90px;
+    margin-top: 20px;
+    text-align: center;
+    color: $color-c;
+    padding: 10px;
+    border: 2px solid $color-c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 20px;
+ }
+
+.div2C{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+    text-decoration:underline overline;
+    
+}
+
+.iframe{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin-top: 10px; 
+}
+
+.div3C{
+    grid-row: 6/7;
+    grid-column: 2/3;
+}
+
+/*CONTACTO*/
+
+
+.formulario{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    }
+
+    .colorForm{
+        color: white;
+    }
+
+    .divDosT{
+        color: white;
+    }
+
+    .h1Contacto{
         display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        }
+        justify-content: center;
+        align-items: center;
+        font-size: 80px;
+        margin-top: 20px;
+    }
+    .hacheCuatro{
+        color: white;
+        font-family: 'Hubballi';
+        border: 2px solid white;
+    }
 
+    .BotonEnviar{
+        border: 2px solid white;
+        margin: 30px;
+        background-color: $color-c3;
+    }
 
+    /*FINAL*/
 
+    .gracias{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: 100px 300px 300px;
+    }
+
+    .hache1F{
+        text-align: center;
+        grid-row: auto;
+
+    }
+
+    .div1F{
+        grid-row: auto;           
+    }
+
+    .gift{
+        height: 300px;
+    }
+
+    .div2F{
+        grid-row: 3/4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
