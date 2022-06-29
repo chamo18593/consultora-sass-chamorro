@@ -10,35 +10,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200;700;900&family=Bodoni+Moda:ital,opsz,wght@1,6..96,400;1,6..96,600;1,6..96,800&family=Hubballi&family=Oranienbaum&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,900&family=Source+Sans+Pro:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0607d3517d.js" crossorigin="anonymous"></script>
+    <script defer src="../index.js"></script>
     <title>Contacto</title>
 </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-mod">
-                <div class="container-fluid">
-                  <a class="navbar-brand navColor" href="#">CSM</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active navColor" aria-current="page" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link navColor" href="./servicio.html">Servicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link navColor" href="./clientes.html">Clientes</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link navColor" href="./contacto.html">Contacto</a>
-                      </li>                  
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </header>
+      <section class="sectionIndex">
+        <img class="sizeImg imgIndex" src="../imagenesyaudio/telefono.jpg" alt="telefono">
+        <p class="parIndex">Tel: 1234.5678</p>
+        <img class="sizeImg imgIndex1" src="../imagenesyaudio/sobre.jpg" alt="sobre">
+        <p class="parIndex1">consultora@consultorasm.com</p>   
+      </section>
+    
+      <header class="header">
+        <nav class="nav">
+            <a href="../index.html" class="logo nav-link">CSM</a>
+            <button class="nav-toggle" aria-label="abrir menu">
+                <i class="fa-solid fa-helmet-safety"></i>
+            </button>
+            <ul class="nav-menu nav-menu-v">
+                <li class="nav-menu-i">
+                    <a href="../index.html" class="nav-menu-link nav-link">Inicio</a>
+                </li>
+                <li class="nav-menu-i">
+                    <a href="./servicio.html" class="nav-menu-link nav-link">Servicio</a>
+                </li>
+                <li class="nav-menu-i">
+                    <a href="./clientes.html" class="nav-menu-link nav-link">Clientes</a>
+                </li>
+                <li class="nav-menu-i">
+                    <a href="./contacto.html" class="nav-menu-link nav-link">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+      </header>
         
         <div class="container-fluid row">
 
@@ -48,14 +53,7 @@
                 <p>Puede completar el formulario, contactarse por email o telefónicamente. Nos comunicaremos con usted a la brevedad.</p>
             </div>
     
-            <div class="col-12">
-              <h4 class="hacheCuatro">Tel: 1234-5678</h4>
-            </div>
-            <div class="col-12">
-                <h4 class="hacheCuatro">consultora@consultorasm.com</h4>
-            </div>
-    
-            <div class="mb-3 row col-12 ">
+            <div class="mb-3 row col-12 col-md-12">
                 <label for="exampleFormControlInput1" class="form-label colorForm">Dirección de Email</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
                 <label for="exampleFormControlInput1" class="form-label colorForm">Número telefónico</label>
@@ -66,13 +64,9 @@
     
             <div class="col-12">
                 <a class="BotonEnviar colorForm" href="./final.html">Enviar Consulta</a>
-            </div>
-    
-            <div class="div1Co">
-                <a class="irInicio" href ="../index.html">Ir a inicio</a>
-            </div>
-    
-            <Footer class="footer1 col-12" id="Derechos de autor">
+            </div>   
+      
+            <Footer class="footer1 col-3" id="Derechos de autor">
             Copyright 2022 ConsultoraSanMartin. Todos los derechos reservados. 
             </Footer>
           </div>   

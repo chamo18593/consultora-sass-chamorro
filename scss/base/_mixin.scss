@@ -5,6 +5,19 @@
     margin-top: 40px;
     margin: 60px;
     text-align: center;
-    display: flex;   
-
+    display: flex;  
+    color: $color-c4; 
+    padding: 15px;
 }
+
+@mixin fondos1{
+    background-color: #1d3461;
+    width: 1800px;
+    height: 100px;
+    margin-top: 40px;
+    margin: 60px;
+    text-align: center;
+    display: flex;  
+    color: $color-c4; 
+    padding: 15px;
+}                                  
